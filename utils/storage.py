@@ -37,7 +37,8 @@ def get_user(username):
             "inventory": {},
             "nyxium": 0,
             "xp": 0,
-            "level": 1
+            "level": 1,
+            "last_daily": 0
         }
 
         save_users(users)
