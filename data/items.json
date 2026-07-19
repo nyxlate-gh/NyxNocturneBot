@@ -3,69 +3,79 @@
         "name": "Raven Feather",
         "emoji": "🪶",
         "rarity": "Common",
-        "description": "A feather carried by the midnight wind."
+        "description": "A feather carried by the midnight wind.",
+        "weight": 50
     },
 
     "ancient_wood": {
         "name": "Ancient Wood",
         "emoji": "🪵",
         "rarity": "Common",
-        "description": "Wood from trees older than memory."
+        "description": "Wood from trees older than memory.",
+        "weight": 50
     },
 
     "moon_dust": {
         "name": "Moon Dust",
         "emoji": "🌙",
         "rarity": "Rare",
-        "description": "Dust that glimmers beneath the moon."
+        "description": "Dust that glimmers beneath the moon.",
+        "weight": 10
     },
 
     "night_bloom": {
         "name": "Night Bloom",
         "emoji": "🌸",
         "rarity": "Rare",
-        "description": "A flower that only blossoms beneath moonlight."
+        "description": "A flower that only blossoms beneath moonlight.",
+        "weight": 10
     },
 
     "dream_moth_wing": {
         "name": "Dream Moth Wing",
         "emoji": "🦋",
         "rarity": "Rare",
-        "description": "Soft wings that shimmer like distant stars."
+        "description": "Soft wings that shimmer like distant stars.",
+        "weight": 10
     },
 
     "forgotten_candle": {
         "name": "Forgotten Candle",
         "emoji": "🕯️",
         "rarity": "Uncommon",
-        "description": "Its flame never seems to go out."
+        "description": "Its flame never seems to go out.",
+        "weight": 25
     },
 
     "lunar_fang": {
         "name": "Lunar Fang",
         "emoji": "🐺",
         "rarity": "Epic",
-        "description": "A fang from a beast that hunts beneath the full moon."
+        "description": "A fang from a beast that hunts beneath the full moon.",
+        "weight": 4
     },
 
     "eclipse_shard": {
         "name": "Eclipse Shard",
         "emoji": "🌑",
         "rarity": "Legendary",
-        "description": "A fragment left behind when the sun and moon embraced."
+        "description": "A fragment left behind when the sun and moon embraced.",
+        "weight": 1
     },
 
     "starlit_thread": {
         "name": "Starlit Thread",
         "emoji": "🧵",
         "rarity": "Uncommon",
-        "description": "Thread spun from fragments of constellations."
+        "description": "Thread spun from fragments of constellations.",
+        "weight": 25
     },
 
     "echo_crystal": {
         "name": "Echo Crystal",
         "emoji": "💎",
         "rarity": "Epic",
-        "description": "A crystal that remembers every whisper it hears."
+        "description": "A crystal that remembers every whisper it hears.",
+        "weight": 4
     }
 }

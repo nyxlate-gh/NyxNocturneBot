@@ -2,6 +2,7 @@ from twitchio.ext import commands
 
 from config import ACCESS_TOKEN, CHANNEL_NAME
 
+from utils.drop_manager import try_drop
 
 class NocturneBot(commands.Bot):
 
@@ -18,6 +19,10 @@ class NocturneBot(commands.Bot):
         print(f"Logged in as: {self.nick}")
         print(f"User ID: {self.user_id}")
         print("=" * 40)
+
+    async def event_message(self, message):
+        await self.handle_commands(message)
+        await try_drop(message)
 
     @commands.command()
     async def ping(self, ctx):
