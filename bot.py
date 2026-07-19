@@ -31,5 +31,6 @@ class NocturneBot(commands.Bot):
 bot = NocturneBot()
 
 bot.load_module("commands.inventory")
+bot.load_module("commands.items")
 
 bot.run()
