@@ -38,7 +38,8 @@ def get_user(username):
             "nyxium": 0,
             "xp": 0,
             "level": 1,
-            "last_daily": 0
+            "last_daily": 0,
+            "last_chat_reward": 0
         }
 
         save_users(users)

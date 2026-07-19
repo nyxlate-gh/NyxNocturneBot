@@ -3,6 +3,8 @@ from twitchio.ext import commands
 from config import ACCESS_TOKEN, CHANNEL_NAME
 
 from utils.drop_manager import try_drop
+from utils.chat_rewards import try_chat_reward
+
 
 class NocturneBot(commands.Bot):
 
@@ -21,8 +23,14 @@ class NocturneBot(commands.Bot):
         print("=" * 40)
 
     async def event_message(self, message):
+        if message.echo:
+            return
+        # Process commands first
         await self.handle_commands(message)
+
+        # Background systems
         await try_drop(message)
+        await try_chat_reward(message)
 
     @commands.command()
     async def ping(self, ctx):

@@ -56,10 +56,6 @@ async def try_drop(message):
     if message.content.startswith("!"):
         return
 
-    # Ignore the bot itself
-    if message.echo:
-        return
-
     # Cooldown
     if now - last_drop_time < DROP_COOLDOWN:
         return
