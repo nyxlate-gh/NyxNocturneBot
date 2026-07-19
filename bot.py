@@ -37,5 +37,6 @@ bot = NocturneBot()
 
 bot.load_module("commands.inventory")
 bot.load_module("commands.items")
+bot.load_module("commands.economy")
 
 bot.run()

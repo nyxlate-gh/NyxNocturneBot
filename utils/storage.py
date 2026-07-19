@@ -35,7 +35,7 @@ def get_user(username):
     if username not in users:
         users[username] = {
             "inventory": {},
-            "gold": 0,
+            "nyxium": 0,
             "xp": 0,
             "level": 1
         }
